@@ -5,7 +5,7 @@ metadata:
   namespace: user0
 spec:
   rules:
-  - host: timber.lvh.me
+  - host: timber1.lvh.me
     http:
       paths:
       - backend:
