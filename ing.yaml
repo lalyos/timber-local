@@ -9,7 +9,5 @@ spec:
     http:
       paths:
       - backend:
-          serviceName: timber
-          servicePort: 80
-        pathType: ImplementationSpecific
-
+          serviceName: timber-frontend
+          servicePort: 8080
