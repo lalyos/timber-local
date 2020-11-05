@@ -1,0 +1,15 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: timber
+  namespace: user0
+spec:
+  rules:
+  - host: timber.lvh.me
+    http:
+      paths:
+      - backend:
+          serviceName: timber
+          servicePort: 80
+        pathType: ImplementationSpecific
+
